@@ -4,8 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Revou Mini Coding Project</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <div class="to-do-list-box">
+        <h1 style="text-align: center;">To-do List</h1>
+    <form style="text-align:center">
+        <input type="text" placeholder="Add a To-do"/>
+        <input type="date" id="due" name="due date"/>
+        <button>+</button>
+    </form>
+    <button style="text-align:center;">Filter</button>
+    <input type="reset" value="delete all"/>
+    <table style="width:100%">
+        <thead>
+            <tr>
+                <th>Task</th>
+                <th>Due date</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        </table>
+    </div>      
 </body>
 </html>
