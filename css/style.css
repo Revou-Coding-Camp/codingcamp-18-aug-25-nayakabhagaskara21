@@ -30,8 +30,8 @@ table, th, td{
 }
 
 th, td {
-  padding: 12px; /* Memberi ruang di dalam setiap sel */
-  text-align: left; /* Membuat teks rata kiri */
+    padding: 12px; /* Memberi ruang di dalam setiap sel */
+    text-align: left; /*Membuat teks rata kiri */
 }
 
 table {
