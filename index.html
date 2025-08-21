@@ -5,17 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Revou Mini Coding Project</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
     <div class="to-do-list-box">
-        <h1 style="text-align: center;">To-do List</h1>
-    <form style="text-align:center">
-        <input type="text" placeholder="Add a To-do"/>
-        <input type="date" id="due" name="due date"/>
-        <button>+</button>
+        <h1 style="text-align:center" class="text-3xl font-bold">To-do List</h1>
+    <form style="text-align:center; width:100%">
+        <input type="text" placeholder="Add a To-do" class ="
+        w-60
+        bg-slate-800
+        text-white
+        placeholder:text-gray-400
+        px-2 py-2
+        border border-slate-500 
+        rounded-md
+        focus:outline-none focus:ring-2 
+        focus:ring-blue-500 
+        focus:border-transparent
+        "/>
+        <input type="date" id="due" name="due date" class ="
+        w-60
+        bg-slate-800
+        text-white
+        placeholder:text-gray-400
+        px-2 py-2
+        border border-slate-500 
+        rounded-md
+        focus:outline-none focus:ring-2 
+        focus:ring-blue-500 
+        focus:border-transparent"/>
+        <button class="bg-sky-500 hover:bg-sky-700 text-white py-2 px-4 font-bold rounded-lg shadow-md transition-all duration-300 ease-in-out transform">+</button>
     </form>
-    <button style="text-align:center;">Filter</button>
-    <input type="reset" value="delete all"/>
+    <div class="button-grup">
+        <button class="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-5 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 ease-in-out transform">
+        Filter</button>
+        <button class="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-5 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 ease-in-out transform">
+    delete all</button>
+    </div>
+    
     <table style="width:100%">
         <thead>
             <tr>
