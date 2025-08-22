@@ -42,3 +42,14 @@ th {
   background-color: #2d3748; /* Memberi warna latar pada header */
   color: white;
 }
+
+.hidden {
+    display:none;
+}
+
+
+
+#search-container.visible {
+    max-height: 100px; /* Atur ketinggian yang cukup untuk input */
+    opacity: 1;
+}

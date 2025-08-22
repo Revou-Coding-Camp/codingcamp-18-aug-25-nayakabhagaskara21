@@ -37,13 +37,25 @@
         <button type="submit" class="bg-sky-500 hover:bg-sky-700 text-white py-2 px-4 font-bold rounded-lg shadow-md transition-all duration-300 ease-in-out transform">+</button>
     </form>
     <div class="button-grup">
-        <button class="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-5 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 ease-in-out transform">
+        <button id="Filter" class="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-5 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 ease-in-out transform">
         Filter</button>
         <button  id="delete-all" class="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-5 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 ease-in-out transform">
     delete all</button>
     </div>
+    <input type="text" id="input-filter" name="input-filter" placeholder="Cari..." class ="
+        hidden
+        w-60
+        bg-slate-800
+        text-white
+        placeholder:text-gray-400
+        px-2 py-2
+        border border-slate-500 
+        rounded-md
+        focus:outline-none focus:ring-2 
+        focus:ring-blue-500 
+        focus:border-transparent"/>
     
-    <table style="width:100%">
+    <table id="table-list" style="width:100%">
         <thead>
             <tr>
                 <th>Task</th>
